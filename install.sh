@@ -61,7 +61,7 @@ FSM_URL="https://github.com/RandomCoderOrg/fs-manager-hippo"
 # * pulseaudo    - PulseAudio is a networked low-latency sound server for Linux
 #                  (which is used to get audio from hippo using moudle-tcp*)
 # * Others dependencies like tar comes pre-loaded in termux so no need to mention
-DEPENDS="proot-distro pulseaudio git"
+DEPENDS="pulseaudio git"
 
 
 # * Usefull functions
