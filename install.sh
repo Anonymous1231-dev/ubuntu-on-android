@@ -80,7 +80,8 @@ shout "\e[1;32m Hippo Installer v${version} ${version_code_name} \n by ${install
 sleep 2
 
 case $(uname -m) in
-    aarch64|armv7l|armv8l) : ;;
+    aarch64|armv7l) : ;;
+    armv8l) lwarn "\"armv8l\" is partially supported applications mave give random seg faults" ;;
     *) 
     die ": sorry Only aarch64 armv7l armv8l os architecture is supported for now"
     ;;
